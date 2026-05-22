@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Najib Mosquera">
+    <meta
+      name="description"
+      content="Personal homepage of Najib Mosquera with skills, projects, resume, and contact information."
+    >
+    <title>Najib Mosquera | Home</title>
+    <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+
+  <body>
+    <!--header is the top part of the page. It contains the logo and navigation links-->
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <!--this is the small black NM box on the top left-->
+          <a class="navbar-brand logo-box" href="./index.html">NM</a>
+
+          <!--Bootstrap button for small screens like phones-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--these are the navigation links on the top right-->
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--main contains the unique content of this page-->
+    <main class="container page-content">
+      <!--main content, what they see-->
+      <section class="hero-section text-center" aria-labelledby="homeTitle">
+        <!--this image is a placeholder. Replace profile placeholder with your real picture later-->
+        <img
+          class="profile-photo"
+          src="./img/profilePic.jpg"
+          alt="profile picture for Najib Mosquera"
+        >
+
+        <h1 id="homeTitle">Hi, I’m Najib Mosquera</h1>
+
+        <p class="hero-text mx-auto">
+          I currently work in data analytics and I am studying computer science.
+          I am learning web development, software engineering, and cloud AI skills.
+          This site is my homepage for sharing my projects, resume, and learning journey.
+        </p>
+
+        <!--contact links are regular links, not JavaScript buttons. -->
+        <div class="contact-links" aria-label="Contact links">
+          <a href="https://www.linkedin.com/in/najib-h-mosquera" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/NHazelJ" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="mailto:najib.mosquera@hotmail.com">Email</a>
+        </div>
+      </section>
+
+      <!--this is the original JavaScript feature for the rubric. -->
+      <section class="focus-section" aria-labelledby="focusTitle">
+        <div class="focus-card mx-auto">
+          <h2 id="focusTitle">Today’s Focus</h2>
+          <p id="focusText">
+            Click the button to show one learning goal I am focusing on today.
+          </p>
+          <button class="btn btn-dark" id="focusButton" type="button">
+            Show Focus
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container text-center">
+        <p>Made by Najib with ❤ for CS 5610 Web Development.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

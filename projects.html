@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Najib Mosquera">
+    <meta
+      name="description"
+      content="Projects page for Najib Mosquera with web development projects and skills."
+    >
+    <title>Najib Mosquera | Projects</title>
+    <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+
+  <body>
+    <!-- Header is the top part of the page. It contains the logo and navigation links. -->
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <!-- This is the small black NM box on the top-left. -->
+          <a class="navbar-brand logo-box" href="./index.html">NM</a>
+
+          <!-- Bootstrap button for small screens like phones. -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- These are the navigation links on the top-right. -->
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main contains the unique content of this page. -->
+    <main class="container page-content">
+      <section class="page-title-section" aria-labelledby="projectsTitle">
+        <p class="small-heading">Project List</p>
+        <h1 id="projectsTitle">Projects</h1>
+        <p>
+          Here are some of the projects I've built to practice my web development skills.
+          These projects are simple but they show my progress as a Software Engineer.
+        </p>
+
+
+      </section>
+
+      <!-- This section uses regular article tags for each project. -->
+      <!-- The horizontal line effect will come from CSS using border-bottom. -->
+      <section class="resume-project-list" aria-label="Project list">
+        <article class="resume-project-item">
+          <h2>Personal Homepage</h2>
+          <p>
+            Homepage built for CS 5610 Web Development.
+            It includes a homepage, projects page, resume page, and AI-generated About Me page.
+          </p>
+          <p class="project-skill-list">
+            HTML · CSS · Bootstrap · JavaScript · GitHub Pages
+          </p>
+          <a
+            href="https://github.com/YOUR-USERNAME/YOUR-HOMEPAGE-REPO"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub Repository
+          </a>
+        </article>
+
+        <article class="resume-project-item">
+          <h2>Airbnb Listings Page</h2>
+          <p>
+            A class exercise that uses JavaScript fetch, JSON data, and DOM updates
+            to display Airbnb listing information on a webpage.
+          </p>
+          <p class="project-skill-list">
+            JavaScript · Fetch · JSON · DOM · Cards
+          </p>
+          <a
+            href="https://github.com/NHazelJ/JSandDOMSelfAssess"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub Repository
+          </a>
+        </article>
+
+        <article class="resume-project-item">
+          <h2>Stock Analyzer</h2>
+          <p>
+            A future project idea for showing stock information
+            in a dashboard layout with filtering capabilities.
+          </p>
+          <p class="project-skill-list">
+            Master Data · UI Planning · Charts · JavaScript
+          </p>
+          <a
+            href="https://github.com/NHazelJ/Stock_Analyzer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub Repository
+          </a>
+        </article>
+      </section>
+
+      <!--this section explains the skills that connect to the projects above-->
+      <section class="skills-section" aria-labelledby="skillsTitle">
+        <h2 id="skillsTitle">Skills Used in These Projects</h2>
+        <ul class="simple-list">
+          <li>Writing semantic HTML for page structure</li>
+          <li>Using CSS classes to style sections and project items</li>
+          <li>Using Bootstrap for the navbar and responsive layout</li>
+          <li>Using vanilla JavaScript to change page content</li>
+          <li>Using GitHub to store and deploy the project</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container text-center">
+        <p>Made by Najib with ❤ for CS 5610 Web Development.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

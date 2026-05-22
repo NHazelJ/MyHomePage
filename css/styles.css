@@ -1,0 +1,334 @@
+/*This CSS file controls how the website looks.*/
+
+/*this changes the default font and background for the whole page*/
+body {
+  background-color: #ffffff;
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*this adds a small line under the navigation area*/
+.site-header {
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* this is the black box around the NM logo*/
+.logo-box {
+  background-color: #111111;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.35rem 0.65rem;
+}
+
+/* this keeps the NM text white when the mouse is over it*/
+.logo-box:hover {
+  color: #ffffff;
+}
+
+/*this creates space above and below the main page content*/
+.page-content {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+/* this centers the homepage hero content*/
+.hero-section {
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+/*this makes the profile picture an oval*/
+.profile-photo {
+  width: 240px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+/* This is the small text above main page titles. */
+.small-heading {
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 0.08rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+/* This makes the homepage paragraph readable but not too wide. */
+.hero-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 760px;
+}
+
+/* This styles the Email, LinkedIn, and GitHub links. */
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+/* This styles each individual contact link. */
+.contact-links a {
+  border: 1px solid #111111;
+  color: #111111;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+/* This changes contact links when the mouse is over them. */
+.contact-links a:hover {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+/* This adds space around the JavaScript feature section. */
+.focus-section {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+/* This styles the card for the JavaScript feature. */
+.focus-card {
+  border: 1px solid #dddddd;
+  max-width: 620px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* This styles the title area on the projects and resume pages. */
+.page-title-section {
+  margin-bottom: 2rem;
+}
+
+/* This styles project cards from the older card version.
+   It is okay to leave this here in case you want to reuse cards later. */
+.project-card {
+  border: 1px solid #dddddd;
+  height: 100%;
+  padding: 1.25rem;
+}
+
+/*this makes project card headings not too large*/
+.project-card h2 {
+  font-size: 1.25rem;
+}
+
+/* This styles the new resume-style project list. */
+.resume-project-list {
+  margin-top: 2rem;
+}
+
+/* Each project gets space and a horizontal line under it. */
+.resume-project-item {
+  border-bottom: 1px solid #dddddd;
+  padding: 1.5rem 0;
+}
+
+/* This keeps the project title readable but not too large. */
+.resume-project-item h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+/* This keeps paragraphs close together inside each project. */
+.resume-project-item p {
+  margin-bottom: 0.5rem;
+}
+
+/* This styles the GitHub repository links. */
+.resume-project-item a {
+  color: #111111;
+  font-weight: 600;
+}
+
+/* this styles the small skill text inside each project*/
+.project-skill-list {
+  color: #555555;
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+/*this adds space before the skills section on the projects page*/
+.skills-section {
+  margin-top: 3rem;
+}
+
+/*this adds spacing for each resume section*/
+.resume-section {
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+/*this makes simple lists easier to read*/
+.simple-list {
+  line-height: 1.8;
+}
+
+/*this is only for the old AI-generated about page style*/
+.ai-page {
+  background: linear-gradient(180deg, #ffffff 0%, #f7f7f7 100%);
+}
+
+/*this styles the top section of the old AI page*/
+.ai-hero-section {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+/*this styles each old AI about card*/
+.ai-card {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  padding: 1.5rem;
+}
+
+/*the styles below are for the new AI-generated About Me page*/
+
+.ai-about-page {
+  background: linear-gradient(135deg, #111827, #1e3a8a, #4c1d95);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.ai-site-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ai-navbar {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.logo-box-light {
+  background-color: #ffffff;
+  color: #111111;
+  font-weight: bold;
+  padding: 0.35rem 0.65rem;
+  text-decoration: none;
+}
+
+.logo-box-light:hover {
+  color: #111111;
+}
+
+.ai-about-content {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.ai-hero {
+  margin: 0 auto 3rem;
+  max-width: 760px;
+  text-align: center;
+}
+
+.ai-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.ai-hero p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.ai-label {
+  color: #ddd6fe;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+.ai-card-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*The boxes in the ai about me page */
+.ai-about-page .ai-card,
+.ai-card-dark {
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 1rem;
+  box-shadow: none;
+  color: #ffffff;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.ai-about-page .ai-card h2,
+.ai-card-dark h2 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.ai-about-page .ai-card p,
+.ai-card-dark p {
+  color: #eeeeee;
+  line-height: 1.7;
+}
+
+.ai-timeline {
+  margin: 3rem auto 0;
+  max-width: 760px;
+}
+
+.ai-timeline h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ai-timeline-item {
+  border-left: 3px solid #ddd6fe;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.ai-timeline-item h3 {
+  color: #ddd6fe;
+  font-size: 1.2rem;
+}
+
+.ai-footer {
+  color: #dddddd;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.ai-footer p {
+  margin-bottom: 0;
+}
+
+/*this styles the bottom footer*/
+.site-footer {
+  border-top: 1px solid #eeeeee;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+/*this removes extra spacing from the footer paragraph*/
+.site-footer p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .ai-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-hero h1 {
+    font-size: 2.3rem;
+  }
+}
