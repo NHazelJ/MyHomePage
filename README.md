@@ -8,7 +8,7 @@ The goal of this project is to build a front-end only personal homepage using va
 
 ## Live Website
 
-[View my deployed homepage]https://myhomepagenm.netlify.app/
+[View my deployed homepage](https://myhomepagenm.netlify.app/)
 
 ## Screenshot
 
