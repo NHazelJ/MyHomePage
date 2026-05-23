@@ -6,6 +6,8 @@ A simple personal homepage created for **CS 5610 Web Development**. This website
 
 The goal of this project is to build a front-end only personal homepage using vanilla HTML, CSS, Bootstrap, and JavaScript ES6 modules. The website is designed to be simple, beginner-friendly, and easy to navigate while still meeting the Project 1 requirements.
 
+Extra with JS (Vanilla) feature : I created a Todays focus button that changes to what I am doing during that period of time.
+
 ## Live Website
 
 [View my deployed homepage](https://myhomepagenm.netlify.app/)
