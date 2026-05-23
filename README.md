@@ -82,6 +82,7 @@ project-folder/
   img/
     favicon.svg
     profilePic.jpg
+    updatedgif.gif
 ```
 
 ## How to Install and Run Locally
