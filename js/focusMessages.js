@@ -1,5 +1,5 @@
 //this array stores the possible messages for the homepage button
-//an array is a list of values in JavaScript.
+//an array is a list of values in JavaScript
 export const focusMessages = [
   "Practicing HTML structure and semantic tags",
   "Improving my CSS layout and spacing skills",

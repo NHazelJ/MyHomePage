@@ -48,7 +48,7 @@ body {
   margin: 0 auto 1.5rem;
 }
 
-/* This is the small text above main page titles. */
+/*this is the small text above main page titles*/
 .small-heading {
   font-size: 0.85rem;
   font-weight: bold;
@@ -57,14 +57,14 @@ body {
   text-transform: uppercase;
 }
 
-/* This makes the homepage paragraph readable but not too wide. */
+/*this makes the homepage paragraph readable but not too wide*/
 .hero-text {
   font-size: 1.1rem;
   line-height: 1.7;
   max-width: 760px;
 }
 
-/* This styles the Email, LinkedIn, and GitHub links. */
+/* this styles the Email, LinkedIn, and GitHub links*/
 .contact-links {
   display: flex;
   flex-wrap: wrap;
@@ -73,7 +73,7 @@ body {
   margin-top: 1.5rem;
 }
 
-/* This styles each individual contact link. */
+/* this styles each individual contact link*/
 .contact-links a {
   border: 1px solid #111111;
   color: #111111;
@@ -81,19 +81,19 @@ body {
   text-decoration: none;
 }
 
-/* This changes contact links when the mouse is over them. */
+/*this changes contact links when the mouse is over them*/
 .contact-links a:hover {
   background-color: #111111;
   color: #ffffff;
 }
 
-/* This adds space around the JavaScript feature section. */
+/*this adds space around the JavaScript feature section */
 .focus-section {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
 
-/* This styles the card for the JavaScript feature. */
+/* this styles the card for the JavaScript feature*/
 .focus-card {
   border: 1px solid #dddddd;
   max-width: 620px;
@@ -101,13 +101,13 @@ body {
   text-align: center;
 }
 
-/* This styles the title area on the projects and resume pages. */
+/* this styles the title area on the projects and resume pages*/
 .page-title-section {
   margin-bottom: 2rem;
 }
 
-/* This styles project cards from the older card version.
-   It is okay to leave this here in case you want to reuse cards later. */
+/* this styles project cards from the older card version.
+   It is okay to leave this here in case you want to reuse cards later */
 .project-card {
   border: 1px solid #dddddd;
   height: 100%;
@@ -119,29 +119,29 @@ body {
   font-size: 1.25rem;
 }
 
-/* This styles the new resume-style project list. */
+/* this styles the new resume-style project list*/
 .resume-project-list {
   margin-top: 2rem;
 }
 
-/* Each project gets space and a horizontal line under it. */
+/* each project gets space and a horizontal line under it*/
 .resume-project-item {
   border-bottom: 1px solid #dddddd;
   padding: 1.5rem 0;
 }
 
-/* This keeps the project title readable but not too large. */
+/* this keeps the project title readable but not too large*/
 .resume-project-item h2 {
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
 }
 
-/* This keeps paragraphs close together inside each project. */
+/*this keeps paragraphs close together inside each project*/
 .resume-project-item p {
   margin-bottom: 0.5rem;
 }
 
-/* This styles the GitHub repository links. */
+/*this styles the GitHub repository links*/
 .resume-project-item a {
   color: #111111;
   font-weight: 600;

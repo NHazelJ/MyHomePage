@@ -1,10 +1,10 @@
 //this imports the list of focus messages from another JavaScript file
-import { focusMessages } from "./focusMessages.js";
+import {focusMessages} from "./focusMessages.js";
 
 //this finds the paragraph where the message will appear
 const focusText = document.querySelector("#focusText");
 
-// This finds the button the user clicks.
+//this finds the button the user clicks
 const focusButton = document.querySelector("#focusButton");
 
 //this function chooses one random message from the array
@@ -21,5 +21,5 @@ if (focusButton) {
   });
 }
 
-// this message helps us know the JavaScript file loaded correctly.
+//this message helps us know the JavaScript file loaded correctly.
 console.log("Najib's personal homepage JavaScript loaded");
