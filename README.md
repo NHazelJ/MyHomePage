@@ -12,7 +12,7 @@ The goal of this project is to build a front-end only personal homepage using va
 
 ## Screenshot
 
-![Homepage screenshot](./img/gif.gif)
+![Homepage screenshot](./img/updatedgif.gif)
 
 ## Pages
 
