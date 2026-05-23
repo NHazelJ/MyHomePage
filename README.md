@@ -1,4 +1,4 @@
-# Najib Mosquera Personal Homepage
+# Najib Mosquera - Personal Homepage
 
 A simple personal homepage created for **CS 5610 Web Development**. This website introduces who I am, shows my projects, includes a resume summary, and has an AI-generated About Me page.
 
@@ -8,19 +8,11 @@ The goal of this project is to build a front-end only personal homepage using va
 
 ## Live Website
 
-Add your Netlify link here after deployment:
-
-```text
-https://myhomepagenm.netlify.app/
-```
+[View my deployed homepage]https://myhomepagenm.netlify.app/
 
 ## Screenshot
 
-Add a screenshot or GIF of the homepage here after deployment:
-
-```markdown
 ![Homepage screenshot](./img/gif.gif)
-```
 
 ## Pages
 
@@ -183,10 +175,10 @@ https://YOUR-VIDEO-LINK-HERE
 
 ## Class Reference
 
-This project was created for:
+This project was created for class CS 5610 Web Development
 
 **CS 5610 Web Development**  
-Instructor/class website: [John Alexis Guerra Gómez](https://johnguerra.co/)
+Instructor/class website link: [John Alexis Guerra Gómez](https://johnguerra.co/)
 
 ## Author
 
