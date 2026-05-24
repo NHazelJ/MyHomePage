@@ -170,11 +170,7 @@ Use HTML5, CSS3, Bootstrap and ES6+. Make it stylish so it can standout.
 
 ## Video Demonstration
 
-Add your public narrated video link here:
-
-```text
-https://YOUR-VIDEO-LINK-HERE
-```
+[View my Demo of my Home Page](https://youtu.be/8hh2cmlz9Fs)
 
 ## Class Reference
 
