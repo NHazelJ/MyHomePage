@@ -81,6 +81,7 @@ body {
   text-decoration: none;
 }
 
+/* Code Review comment - I noticed that your colors for your site repeat. You can use CSS variables to avoid repetition!  */
 /*this changes contact links when the mouse is over them*/
 .contact-links a:hover {
   background-color: #111111;
