@@ -162,6 +162,7 @@ The `about.html` page was intentionally created with AI assistance. It has a dif
 ChatGPT, GPT-5.5 Thinking were used.
 
 ### Example Prompt Used
+### Code Review comment - Hi! One suggestion is to include all the AI prompts you used. 
 
 ```text
 Act as expirience software engineer and help me create an AboutMe page for my homepage for CS 5610 Web Development project 1.
