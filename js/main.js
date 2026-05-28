@@ -9,7 +9,7 @@ const focusButton = document.querySelector("#focusButton");
 
 //this function chooses one random message from the array
 function getRandomFocusMessage() {
-  const randomIndex = Math.floor(Math.random() * focusMessages.length);
+  const randomIndex = Math.floor(Math.random() * focusMessages.length); //I love the idea of randomly picking a message! So much fun. Maybe you can also add random color to the text！
   return focusMessages[randomIndex];
 }
 
